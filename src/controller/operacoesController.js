@@ -3,7 +3,6 @@ import Operacao from "../models/Operacao.js"
 class OperacoesController {
 
     static somar(req, res) {
-        console.log(req.params)
         const valor1 = Object.values(req.query)[0]
         const valor2 = Object.values(req.query)[1]
 

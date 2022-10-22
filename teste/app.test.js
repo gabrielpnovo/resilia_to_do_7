@@ -1,5 +1,5 @@
+import app from '../src/app.js';
 import request from "supertest";
-
 
 describe("GET /somar ", () => {
     test("Deve verificar se soma correta", async () => {

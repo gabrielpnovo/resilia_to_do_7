@@ -1,6 +1,6 @@
 import app from './src/app.js'
 
-const port = 3300
+const port = process.env.PORT || 3300
 
 app.listen(port, () => {
     console.log(`Estou escutando em http://localhost:${port}`)
